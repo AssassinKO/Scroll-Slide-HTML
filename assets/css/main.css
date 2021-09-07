@@ -1,0 +1,218 @@
+.mainPage{
+    width: auto;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.year ul{
+    padding: 0px!important;
+    text-align: center;
+    
+}
+
+.text{
+    display: inline-block;
+}
+.main-image{
+    display: inline-block;
+}
+.mainPage ul li{
+    width: 100vw;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 500px;
+}
+.mainPage ul{
+    width: max-content;
+    padding: 0px!important;
+}
+.year ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+ul.orderPicture li{
+    list-style-type: none;
+    float: left;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: burlywood;
+    margin: 7px;
+    padding: 5px;
+}
+.sound{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+.item-image-1{
+    height: 90%;
+}
+ul.orderPicture{
+    display: inline-block;
+}
+ul.orderPicture .select{
+    background-color: crimson;
+}
+.orderPicture{
+    
+    float: left;
+    margin-left: 10%;
+}
+.year{
+    border-right: 1px solid black;
+    height: 70vh;
+}
+.eachYear ul li{
+    list-style-type: none;
+    float: left;
+    padding: 7px;
+    width: 10%;
+}
+.eachYear ul{
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    border-bottom: 1px solid black;
+}
+@media screen and (max-width: 576px) {
+    .year ul li{
+        float: left;
+    }
+    .year ul{
+        height: 30px;
+    }
+    .year{
+        height: 150px!important;
+    }
+}
+h5{
+    display: inline-block;
+}
+#year1{
+    color: red;
+}
+
+h1{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px slategray;
+
+}
+
+#second{
+    visibility: hidden;
+}
+#black{
+    margin-left: -60px;
+}
+.item-image{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    justify-content: center;
+}
+.onePage{
+    margin-top: 50px;
+}
+
+
+/*----------------------------my css-----------*/
+
+.deside-width-1{
+
+    padding: 34px;
+    margin-top: 44px;
+    flex: 0 0 10.333333%!important;
+    max-width: 11.333333% !important;
+}
+
+h1{
+    font-size:50x;
+    font-weight: bold;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.magin-100{
+    margin-top:100px;
+}
+
+ol.carousel-indicators {
+    justify-content: revert;
+    margin: 0;
+    left: 90px;
+}
+
+.carousel-indicators li {
+    background-color: rgb(172 55 55 / 44%)!important;
+    border: 0px solid #e9b2b2 !important;
+    margin: 0 4px !important;
+}
+.carousel-indicators li.active{
+    background-color: #c8868c;
+    margin: 0 6px;
+
+}
+.tab.bar-section{
+    border-bottom: 1px solid #ffc6c6;
+}
+
+
+.tab button.tablinks:before {
+    content: '';
+    display: block;
+    background: #ffa2a2;
+    width: 1px;
+    height: 17px;
+    position: absolute;
+    bottom: -23px;
+    left: 19px;
+}
+
+.tab button.tablinks {
+    position: relative;
+}
+.tabcontent {
+    display: none;}
+button.tablinks.active {
+        font-weight: 800;
+        color: black;
+    }
+    @media screen and (max-width: 1024px) {
+    .tab button.tablinks {
+        border: 0;
+        margin: 15px 16px 18px;
+        background: transparent;
+    }
+}
+    @media screen and (max-width: 767px) {
+    .deside-width-1 {
+        padding: 34px;
+        margin-top: 44px;
+        flex: 0 0 100%!important;
+        max-width: 100% !important;
+    }
+    .tab.bar-section {
+        margin-top: 72px;
+    }
+    .col-sm-2.year.deside-width-1 {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .col-5,.col-2 { flex: 0 0 100%!important;
+        max-width: 100% !important;
+    }
+    ol.carousel-indicators {
+        
+        bottom: -44px;
+    }
+    .tab.bar-section {
+        border-bottom: 0px solid #ffc6c6;
+    }
+}
